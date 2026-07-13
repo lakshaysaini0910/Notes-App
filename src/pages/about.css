@@ -1,0 +1,17 @@
+.aboutSection {
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-between; */
+    background-color: #ffffff;
+    height: auto;
+    min-height: 430px;
+    align-items: center;
+    margin: 20px 40px;
+    padding: 10px 50px 0px 30px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+}
+
+.aboutP{
+    padding: 10px;
+    font-size: 18px;
+}

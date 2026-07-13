@@ -1,0 +1,229 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&display=swap');
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  background-color: #ffffff;
+  height: 105px;
+  align-items: center;
+  margin: 20px 40px;
+  padding: 0 50px 0 30px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+}
+
+nav ul {
+  display: flex;
+  gap: 10%;
+  font-weight: 500;
+}
+
+nav ul li {
+  background-color: #4338CA;
+  list-style-type: none;
+  font-size: 20px;
+  border: 1px solid #4F46E5;
+  border-radius: 50px;
+  padding: 8px 20px;
+  color: white;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.logo {
+  color: #4F46E5;
+  font-size: 40px;
+  font-weight: bold;
+  font-family: "Roboto", sans-serif;
+}
+
+main {
+  background-color: #F5F5F5;
+  padding: 10px 0;
+  margin: 30px 40px;
+  box-shadow: 0 0 25px rgba(0, 0, 0, 0.5);
+}
+
+.titleSection,
+.descSection {
+  padding: 20px 0 0px 0;
+}
+
+.submit {
+  padding: 12px 24px;
+  border: none;
+  border-radius: 10px;
+
+  background: #4F46E5;
+  color: white;
+  font-size: 16px;
+  font-weight: 600;
+  font-family: 'Poppins', sans-serif;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  margin: 10px 0 5px 0;
+}
+
+.submit:hover {
+  background: #4338CA;
+  transform: translateY(-2px);
+  box-shadow: 0 8px 20px rgba(79, 70, 229, 05);
+}
+
+label {
+  display: block;
+}
+
+form {
+  text-align: center;
+}
+
+h1,
+h2 {
+  font-family: "Outfit", sans-serif;
+  text-align: center;
+  color: #4F46E5;
+  font-size: 28px;
+}
+
+input {
+  width: 30%;
+  padding: 12px 18px;
+  font-size: 16px;
+  border: 1px solid #D1D5DB;
+  border-radius: 10px;
+  background-color: #FFFFFF;
+  color: #333;
+  outline: none;
+}
+
+textarea {
+  width: 45%;
+  padding: 24px 24px;
+  font-size: 16px;
+  border: 1px solid #D1D5DB;
+  border-radius: 10px;
+  background-color: #FFFFFF;
+  color: #333;
+  outline: none;
+}
+
+section {
+  background-color: #F5F5F5;
+  padding: 10px 0;
+  margin: 30px 40px;
+  box-shadow: 0 0 25px rgba(0, 0, 0, 0.5);
+
+}
+
+.card {
+  width: 20%;
+  max-width: 300px;
+  min-height: 180px;
+  background: #4F46E5;
+  color: white;
+  border-radius: 18px;
+  padding: 18px;
+  position: relative;
+  box-shadow: 0 10px 25px rgba(79, 70, 229, 0.25);
+  transition: all 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 15px 35px rgba(79, 70, 229, 0.35);
+}
+
+
+.card .title {
+  text-align: center;
+  font-weight: bold;
+  padding-bottom: 10px;
+  text-decoration: underline;
+}
+
+.noteSection {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #BCC3CB;
+  border-radius: 20px;
+  min-height: 50px;
+  height: auto;
+  width: 80%;
+  box-sizing: border-box;
+  margin: 10px;
+  padding: 50px;
+  gap: 30px;
+}
+
+
+
+.del {
+  position: absolute;
+  right: 10px;
+  bottom: 10px;
+  width: 30px;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  border-radius: 50%;
+  background: #FEE2E2;
+  color: #DC2626;
+  cursor: pointer;
+  transition: all 0.25s ease;
+}
+
+.del:hover {
+  background: #DC2626;
+  color: white;
+  transform: scale(1.08);
+}
+
+
+footer {
+  width: 100%;
+  background-color: #ffffff;
+  border-top: 1px solid #e5e5e5;
+  box-shadow: 0 -3px 10px rgba(0, 0, 0, 0.2);
+  padding: 30px 0;
+  margin-top: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+footer p {
+  font-size: 14px;
+  color: #666;
+  font-weight: 500;
+}
+
+@media (max-width:500px) {
+
+  nav {
+    flex-direction: column;
+    height: auto;
+    padding: 2%;
+    gap: 10px;
+  }
+
+  nav ul {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 5px;
+  }
+
+}
